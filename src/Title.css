@@ -1,0 +1,45 @@
+.Title {
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.527), 
+        rgba(0, 0, 0, 0.479)
+    ),
+    url("aurukas.jpg");
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    padding: 1em;
+    margin-bottom: 2em;
+    background-position: center;
+    background-size: cover;
+    height: 910px;
+    color: #fff;
+    
+  }
+  .Header-left {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+  }
+  .Header-right {
+    font-family: sans-serif;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+  .button {
+    border: none;
+    background: none;
+    color: white;
+  }
+  .Header-middle {
+    font-family: sans-serif;
+    justify-content: center;
+    text-align: center;
+    align-items: baseline;
+    position: absolute;
+    color: white;
+    font-size: 34px;
+    top: 450px;
+  }

@@ -1,0 +1,17 @@
+ul.a {
+    list-style-type: circle;
+}
+.Body {
+    line-height: 2;
+    font-family: sans-serif;
+    text-align: center;
+    margin-left: 150px;
+    margin-right: 150px;
+
+}
+.Bullet_list {
+    text-align: left;
+    margin-left: 40px;
+
+    
+}
