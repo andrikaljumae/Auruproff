@@ -20,7 +20,7 @@ function Homepage() {
                 <b style={{fontSize: 34}}>SOOVIN HINNAPAKKUMIST!</b>
             </div>
         </div>
-        </div>
+      </div>
       <div className="Body">
         <b style={{fontSize: 25}}>AURUPROFF</b>
         <p style={{fontSize: 22}}>aitab Sind erinevate pindade puhastusel – meie pakutavate eripuhastusteenuste hulka kuuluvad aurupesu, kuumavee survepesu, jääpuhastus ja pindade kaitsetöötlus.</p>
