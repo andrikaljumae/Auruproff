@@ -1,8 +1,7 @@
 import React from 'react'
 import './Title.css';
 import logo from './logo.png';
-
-
+import Navbar from './components/Navbar';
 
 function Title() {
   return (
@@ -10,14 +9,7 @@ function Title() {
         <div className="Header-left">
             <img src={logo} width="150px" height="30px" alt="pilt" />
         </div>
-        <div className="Header-right">
-            <button class="button">ESILEHT</button>
-            <button class="button">AURUPESU</button>    
-            <button class="button">SURVEPESU & KAITSETÖÖTLUS</button>    
-            <button class="button">JÄÄPUHASTUS</button>    
-            <button class="button">TEHTUD TÖÖD</button>          
-            <button class="button">KÜSI PAKKUMIST!</button>          
-        </div>
+        <Navbar/>
         <div className="Header-middle">
             <p>AURUPESU | SURVEPESU | KAITSETÖÖTLUS | JÄÄPUHASTUS |</p>
             <p style={{fontSize: 22}}>Auruproff on väikeettevõte, mille taga on pühendunud meeskond.</p>
