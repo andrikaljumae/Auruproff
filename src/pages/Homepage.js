@@ -1,9 +1,26 @@
 import React from 'react'
-import './Body.css';
+import '../styles/Homepage.css';
+import logo from '../logo.png';
+import Navbar from '../components/Navbar';
 
-
-function Body() {
-    return (
+function Homepage() {
+  return (
+    <div className="Homepage">
+      <div className="wrapper">
+        <div className="Title">
+            <div className="Header-right">
+                <img src={logo} width="150px" height="30px" alt="pilt" />
+            </div>
+            <Navbar/>
+            <div className="Header-middle">
+                <p style={{fontSize: 34}}>AURUPESU | SURVEPESU | KAITSETÖÖTLUS | JÄÄPUHASTUS |</p>
+                <p style={{fontSize: 22}}>Auruproff on väikeettevõte, mille taga on pühendunud meeskond.</p>
+                <p style={{fontSize: 22}}>Iga objekt on unikaalne ning teeme just Sinu soovidest ja vajadustest lähtuva pakkumise!</p>
+                <br></br>
+                <b style={{fontSize: 34}}>SOOVIN HINNAPAKKUMIST!</b>
+            </div>
+        </div>
+        </div>
       <div className="Body">
         <b style={{fontSize: 25}}>AURUPROFF</b>
         <p style={{fontSize: 22}}>aitab Sind erinevate pindade puhastusel – meie pakutavate eripuhastusteenuste hulka kuuluvad aurupesu, kuumavee survepesu, jääpuhastus ja pindade kaitsetöötlus.</p>
@@ -24,7 +41,7 @@ function Body() {
         </ul>
         </div>
       </div>
-    )
+    </div>
+  )
 }
-
-export default Body
+export default Homepage;

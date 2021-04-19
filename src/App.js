@@ -1,19 +1,21 @@
-import Title from './Title';
-import Body from './Body';
-import './App.css';
+import './styles/App.css';
 import Icons from './components/Icons';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import Pages from './pages/Index.js';
 
 function App() {
   return (
     <div className="App">
-      <Router>
-        <Title />
+      <BrowserRouter>
         <Switch>
-          <Route path='/' />
+          <Route path="/" exact component={Pages.Homepage} />
+          <Route path='/survepesu' exact component={Pages.Survepesu} />
+          <Route path='/aurupesu' exact component={Pages.Aurupesu} />
+          <Route path='/jaapuhastus' exact component={Pages.Jaapuhastus} />
+          <Route path='/tehtud_tood' exact component={Pages.Tehtud_tood} />
+          <Route path='/kontakt' exact component={Pages.Kontakt} />
         </Switch>
-      </Router>
-      <Body />
+      </BrowserRouter>
       <Icons />
       </div>
   );

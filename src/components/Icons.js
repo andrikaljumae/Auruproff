@@ -1,5 +1,5 @@
 import React from 'react';
-import './Icons.css';
+import '../styles/Icons.css';
 import { Facebook } from 'react-feather';
 import { Instagram } from 'react-feather';
 import { Mail } from 'react-feather';

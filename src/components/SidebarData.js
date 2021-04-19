@@ -22,7 +22,7 @@ export const SidebarData = [
   },
   {
     title: 'TEHTUD TÖÖD',
-    path: '/tehtud-tood',
+    path: '/tehtud_tood',
     cName: 'nav-text'
   },
   {
