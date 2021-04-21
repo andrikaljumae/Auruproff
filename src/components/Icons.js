@@ -19,9 +19,9 @@ function MailLink() {
 function Icons() {
   return (
       <div className="Icons">
-        <Facebook onClick={FacebookLink} size={40} width={70}/>
-        <Instagram onClick={InstagramLink} size={40} width={70}/>
-        <Mail onClick={MailLink} size={40} width={70}/>
+        <Facebook onClick={FacebookLink} size={30} width={70}/>
+        <Instagram onClick={InstagramLink} size={30} width={70}/>
+        <Mail onClick={MailLink} size={30} width={70}/>
       </div>
   );
 }

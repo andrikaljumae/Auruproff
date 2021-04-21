@@ -1,5 +1,4 @@
 import './styles/App.css';
-import Icons from './components/Icons';
 import Footer from './components/Footer';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import Pages from './pages/Index.js';
@@ -17,7 +16,6 @@ function App() {
           <Route path='/kontakt' exact component={Pages.Kontakt} />
         </Switch>
       </BrowserRouter>
-      <Icons />
       <Footer />
       </div>
   );

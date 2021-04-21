@@ -1,8 +1,9 @@
-.footer-wrapper {
-    display: inline;
-    font-size: 15px;
+.footer {
+    position: relative;
+    display: flex;
+    padding-top: 3em;
+    bottom: 0;
+    width: 100%;
     text-align: center;
-    font-style: bold;
-    font-family: sans-serif;
-    color: black;
+    flex-direction: column;
 }
