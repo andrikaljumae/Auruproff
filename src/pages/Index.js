@@ -6,7 +6,7 @@ import Tehtud_tood from "./Tehtud_tood.js";
 import Kontakt from "./Kontakt.js";
 
 
-export default {
+const Pages = {
   Survepesu,
   Homepage,
   Aurupesu,
@@ -15,3 +15,5 @@ export default {
   Kontakt
 
 };
+
+export default Pages;
