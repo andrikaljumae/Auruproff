@@ -2,6 +2,7 @@ import React from 'react'
 import '../styles/Homepage.css';
 import logo from '../logo.png';
 import Navbar from '../components/Navbar';
+import { Link } from 'react-router-dom';
 
 function Homepage() {
   return (
@@ -9,7 +10,9 @@ function Homepage() {
       <div className="wrapper">
         <div className="Title">
             <div className="Header-right">
-                <img src={logo} width="150px" height="30px" alt="pilt" />
+                <Link to={'/'}>
+                  <img src={logo} width="170px" height="40px" alt="pilt" />
+                </Link>
             </div>
             <Navbar/>
             <div className="Header-middle">
