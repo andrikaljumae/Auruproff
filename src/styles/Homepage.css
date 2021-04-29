@@ -1,3 +1,8 @@
+
+@font-face {
+  font-family: 'Roboto-thin';
+  src: url('../fonts/Roboto-Thin.ttf');
+}
 .wrapper {
   display: flex;
 }
@@ -23,8 +28,8 @@
    
   }
   .Header-middle {
-    margin-top: 430px;
-    font-family: sans-serif;
+    margin-top: 400px;
+    font-family: Roboto-thin;
     justify-content: center;
     text-align: center;
     align-items: baseline;
@@ -36,8 +41,7 @@
     list-style-type: circle;
 }
 .Body {
-    line-height: 2;
-    font-family: sans-serif;
+    font-family: Roboto-thin;
     margin-top: 3em;
     text-align: center;
     margin-left: 150px;
@@ -47,6 +51,7 @@
 .Bullet_list {
     text-align: left;
     margin-left: 40px;
+    font-size: 20px;
 
     
 }

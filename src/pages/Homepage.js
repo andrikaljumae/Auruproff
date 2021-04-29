@@ -10,20 +10,20 @@ function Homepage() {
         <div className="Title">
             <Navbar/>
             <div className="Header-middle">
-                <p style={{fontSize: 34}}>AURUPESU | SURVEPESU | KAITSETÖÖTLUS | JÄÄPUHASTUS |</p>
-                <p style={{fontSize: 22}}>Auruproff on väikeettevõte, mille taga on pühendunud meeskond.</p>
+                <p style={{fontSize: 36}}>AURUPESU | SURVEPESU | KAITSETÖÖTLUS | JÄÄPUHASTUS |</p>
+                <p style={{fontSize: 24}}>Auruproff on väikeettevõte, mille taga on pühendunud meeskond.</p>
                 <p style={{fontSize: 22}}>Iga objekt on unikaalne ning teeme just Sinu soovidest ja vajadustest lähtuva pakkumise!</p>
                 <br></br>
-                <b style={{fontSize: 34}}>SOOVIN HINNAPAKKUMIST!</b>
+                <b style={{fontSize: 36}}>SOOVIN HINNAPAKKUMIST!</b>
             </div>
         </div>
       </div>
       <div className="Body">
-        <b style={{fontSize: 25}}>AURUPROFF</b>
-        <p style={{fontSize: 22}}>aitab Sind erinevate pindade puhastusel – meie pakutavate eripuhastusteenuste hulka kuuluvad aurupesu, kuumavee survepesu, jääpuhastus ja pindade kaitsetöötlus.</p>
+        <b style={{fontSize: 34}}>AURUPROFF</b>
+        <p style={{fontSize: 28}}>aitab Sind erinevate pindade puhastusel – meie pakutavate eripuhastusteenuste hulka kuuluvad aurupesu, kuumavee survepesu, jääpuhastus ja pindade kaitsetöötlus.</p>
         <p>_______________________________________________</p>
         <div className="Bullet_list" style={{lineHeight: 2}}>
-          <b style={{fontSize: 23}}>ERIPUHASTUSTEENUSED:</b>
+          <b style={{fontSize: 28}}>ERIPUHASTUSTEENUSED:</b>
           <ul class="a" style={{marginTop: 15}}>
               <li>Tänavakivi, fassaadi, katuse ja terrassi puhastus</li>
               <li>Spaade ja spordiklubide süvapuhastus</li>

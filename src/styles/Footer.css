@@ -1,5 +1,7 @@
 .footer {
     position: relative;
+    font-family: Roboto-thin;
+    font-size: 22px;
     display: flex;
     padding-top: 3em;
     bottom: 0;

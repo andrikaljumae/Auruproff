@@ -7,9 +7,9 @@ function Footer() {
         <div className="footer-wrapper">
             <div className="footer">
                 <Icons />
-                <p>Auruproff OÜ</p>
-                <p>Helista Meile: +372 5451 7710</p>
-                <p>Kirjuta meile: info@auruproff.ee</p>
+                <b>Auruproff OÜ</b>
+                <b>Helista Meile: +372 5451 7710</b>
+                <b>Kirjuta meile: info@auruproff.ee</b>
             </div> 
         </div>
     )
