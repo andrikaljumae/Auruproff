@@ -1,19 +1,13 @@
 import React from 'react'
 import '../styles/Homepage.css';
-import logo from '../logo.png';
 import Navbar from '../components/Navbar';
-import { Link } from 'react-router-dom';
+
 
 function Homepage() {
   return (
     <div className="Homepage">
       <div className="wrapper">
         <div className="Title">
-            <div className="Header-left">
-                <Link to={'/'}>
-                  <img src={logo} width="150px" height="30px" alt="pilt" />
-                </Link>
-            </div>
             <Navbar/>
             <div className="Header-middle">
                 <p style={{fontSize: 34}}>AURUPESU | SURVEPESU | KAITSETÖÖTLUS | JÄÄPUHASTUS |</p>
@@ -29,8 +23,8 @@ function Homepage() {
         <p style={{fontSize: 22}}>aitab Sind erinevate pindade puhastusel – meie pakutavate eripuhastusteenuste hulka kuuluvad aurupesu, kuumavee survepesu, jääpuhastus ja pindade kaitsetöötlus.</p>
         <p>_______________________________________________</p>
         <div className="Bullet_list" style={{lineHeight: 2}}>
-        <b style={{fontSize: 23}}>ERIPUHASTUSTEENUSED:</b>
-        <ul class="a" style={{marginTop: 15}}>
+          <b style={{fontSize: 23}}>ERIPUHASTUSTEENUSED:</b>
+          <ul class="a" style={{marginTop: 15}}>
               <li>Tänavakivi, fassaadi, katuse ja terrassi puhastus</li>
               <li>Spaade ja spordiklubide süvapuhastus</li>
               <li>Tootmisruumide puhastus</li>
@@ -41,7 +35,7 @@ function Homepage() {
               <li>Ehitus- ja remondijärgne koristus</li>
               <li>Põrandate süvapesu ja vahatamine</li>
               <li>Grafiti eemaldus</li>
-        </ul>
+          </ul>
         </div>
       </div>
     </div>

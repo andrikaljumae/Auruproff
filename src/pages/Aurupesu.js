@@ -1,5 +1,5 @@
 import React from 'react'
-
+import '../styles/all_pages.css';
 function Aurupesu() {
     return (
         <div className='aurupesu'>

@@ -1,4 +1,6 @@
-import React from 'react'
+import React from 'react';
+import '../styles/all_pages.css';
+
 
 function Survepesu() {
     return (
