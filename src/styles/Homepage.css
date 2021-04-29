@@ -17,8 +17,10 @@
   }
   .Header-right {
     position: absolute;
-    top: 20px;
-    right: 20px;
+    margin-top: 1rem;
+    margin-left: 2rem;
+    filter: brightness(100);
+   
   }
   .Header-middle {
     margin-top: 430px;
@@ -26,7 +28,7 @@
     justify-content: center;
     text-align: center;
     align-items: baseline;
-    color: white;
+    
     
   }
 

@@ -11,7 +11,7 @@ function Homepage() {
         <div className="Title">
             <div className="Header-right">
                 <Link to={'/'}>
-                  <img src={logo} width="170px" height="40px" alt="pilt" />
+                  <img src={logo} width="150px" height="30px" alt="pilt" />
                 </Link>
             </div>
             <Navbar/>
