@@ -9,7 +9,7 @@ function Homepage() {
     <div className="Homepage">
       <div className="wrapper">
         <div className="Title">
-            <div className="Header-right">
+            <div className="Header-left">
                 <Link to={'/'}>
                   <img src={logo} width="150px" height="30px" alt="pilt" />
                 </Link>
