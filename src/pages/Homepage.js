@@ -6,25 +6,35 @@ import Navbar from '../components/Navbar';
 function Homepage() {
   return (
     <div className="Homepage">
-      <div className="wrapper">
+      <div className="Wrapper">
         <div className="Title">
             <Navbar/>
             <div className="Header-middle">
-                <p style={{fontSize: 36}}>AURUPESU | SURVEPESU | KAITSETÖÖTLUS | JÄÄPUHASTUS |</p>
-                <p style={{fontSize: 24}}>Auruproff on väikeettevõte, mille taga on pühendunud meeskond.</p>
-                <p style={{fontSize: 22}}>Iga objekt on unikaalne ning teeme just Sinu soovidest ja vajadustest lähtuva pakkumise!</p>
+              <div className="Services">
+                <p>AURUPESU | SURVEPESU | KAITSETÖÖTLUS | JÄÄPUHASTUS |</p>
+              </div>
+              <div className="Introduction">
+                <p>Auruproff on väikeettevõte, mille taga on pühendunud meeskond.</p>
+                <p>Iga objekt on unikaalne ning teeme just Sinu soovidest ja vajadustest lähtuva pakkumise!</p>
+              </div>
                 <br></br>
-                <b style={{fontSize: 36}}>SOOVIN HINNAPAKKUMIST!</b>
+              <div className="Offer">
+                <b>SOOVIN HINNAPAKKUMIST!</b>
+              </div>
             </div>
         </div>
       </div>
       <div className="Body">
-        <b style={{fontSize: 34}}>AURUPROFF</b>
-        <p style={{fontSize: 28}}>aitab Sind erinevate pindade puhastusel – meie pakutavate eripuhastusteenuste hulka kuuluvad aurupesu, kuumavee survepesu, jääpuhastus ja pindade kaitsetöötlus.</p>
+        <div className="Body_title">
+          <b>AURUPROFF</b>
+        </div>
+        <div className="Body_introduction">
+          <p>aitab Sind erinevate pindade puhastusel – meie pakutavate eripuhastusteenuste hulka kuuluvad aurupesu, kuumavee survepesu, jääpuhastus ja pindade kaitsetöötlus.</p>
+        </div>
         <p>_______________________________________________</p>
-        <div className="Bullet_list" style={{lineHeight: 2}}>
+        <div className="Bullet_list">
           <b style={{fontSize: 28}}>ERIPUHASTUSTEENUSED:</b>
-          <ul class="a" style={{marginTop: 15}}>
+          <ul class="a">
               <li>Tänavakivi, fassaadi, katuse ja terrassi puhastus</li>
               <li>Spaade ja spordiklubide süvapuhastus</li>
               <li>Tootmisruumide puhastus</li>

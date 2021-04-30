@@ -3,7 +3,10 @@
   font-family: 'Roboto-thin';
   src: url('../fonts/Roboto-Thin.ttf');
 }
-.wrapper {
+.Homepage {
+  font-family: Roboto-thin;
+}
+.Wrapper {
   display: flex;
 }
 
@@ -18,42 +21,47 @@
     background-size: cover;
     height: 910px;
     color: #fff;
-    
-  }
-  .Header-left {
-    position: absolute;
-    margin-top: 1rem;
-    margin-left: 2rem;
-    filter: brightness(100);
-   
   }
   .Header-middle {
     margin-top: 400px;
-    font-family: Roboto-thin;
     justify-content: center;
     text-align: center;
     align-items: baseline;
-    
-    
+  }
+  .Services {
+    font-size: 36px;
+  }
+  .Introduction {
+    font-size: 24px;
+  }
+  .Offer {
+    font-size: 36px;
   }
 
   ul.a {
     list-style-type: circle;
+    margin-top: 15px;
+    margin-left: 40px;
 }
 .Body {
-    font-family: Roboto-thin;
     margin-top: 3em;
+    text-align: center;
+  }
+  .Body_title {
+    text-align: center;
+    font-size: 34px;
+  }
+  .Body_introduction {
     text-align: center;
     margin-left: 150px;
     margin-right: 150px;
-
-}
+    font-size: 28px;
+  }
 .Bullet_list {
     text-align: left;
+    margin-top: 40px;
     margin-left: 40px;
-    font-size: 20px;
-
-    
+    font-size: 20px;   
 }
 
   
