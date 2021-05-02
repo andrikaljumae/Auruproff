@@ -1,6 +1,8 @@
 import React from 'react'
 import '../styles/Homepage.css';
 import Navbar from '../components/Navbar';
+import Logo from "../components/Logo";
+import Footer from '../components/Footer';
 
 
 function Homepage() {
@@ -8,6 +10,7 @@ function Homepage() {
     <div className="Homepage">
       <div className="Wrapper">
         <div className="Title">
+          <Logo/>
             <Navbar/>
             <div className="Header-middle">
               <div className="Services">
@@ -47,6 +50,9 @@ function Homepage() {
               <li>Grafiti eemaldus</li>
           </ul>
         </div>
+      </div>
+      <div className="Footer">
+        <Footer/>
       </div>
     </div>
   )
