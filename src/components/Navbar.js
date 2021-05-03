@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import * as FaIcons from 'react-icons/fa';
+import * as Bars from 'react-icons/fa';
 import { Link } from 'react-router-dom';
-import { SidebarData } from './SidebarData';
+import { Data } from './Data';
 import '../styles/Navbar.css';
 import { IconContext } from 'react-icons';
 
@@ -14,15 +14,15 @@ function Navbar() {
     <>
       <IconContext.Provider value={{ color: '#fff' }}>
         <div className='navbar'>
-          <Link to='#' className='menu-bars'>
-            <FaIcons.FaBars onClick={showSidebar} />
+          <Link to='#' className='bars'>
+            <Bars.FaBars onClick={showSidebar} />
           </Link>
         </div>
-        <nav className={sidebar ? 'nav-menu active' : 'nav-menu'}>
-          <ul className='nav-menu-items' onClick={showSidebar}>
-            {SidebarData.map((item, index) => {
+        <nav className={sidebar ? 'menu active' : 'menu'}>
+          <ul className='menu-items' onClick={showSidebar}>
+            {Data.map((item, index) => {
               return (
-                <li key={index} className={item.cName}>
+                <li key={index} className={item.classname}>
                   <Link to={item.path}>
                     <span>{item.title}</span>
                   </Link>

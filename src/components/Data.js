@@ -1,33 +1,33 @@
 
-export const SidebarData = [
+export const Data = [
   {
     title: 'ESILEHT',
     path: '/',
-    cName: 'nav-text'
+    classname: 'content'
   },
   {
     title: 'AURUPESU',
     path: '/aurupesu',
-    cName: 'nav-text'
+    classname: 'content'
   },
   {
     title: 'SURVEPESU & KAITSETÖÖTLUS',
     path: '/survepesu',
-    cName: 'nav-text'
+    classname: 'content'
   },
   {
     title: 'JÄÄPUHASTUS',
     path: '/jaapuhastus',
-    cName: 'nav-text'
+    classname: 'content'
   },
   {
     title: 'TEHTUD TÖÖD',
     path: '/tehtud_tood',
-    cName: 'nav-text'
+    classname: 'content'
   },
   {
     title: 'KÜSI PAKKUMIST',
     path: '/kontakt',
-    cName: 'nav-text'
+    classname: 'content'
   }
 ];
