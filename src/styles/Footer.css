@@ -1,11 +1,27 @@
+
+@font-face {
+    font-family: 'Roboto-thin';
+    src: url('../fonts/Roboto-Thin.ttf');
+  }
+
 .footer {
+    font-family: Roboto-thin;
     position: relative;
     font-family: Roboto-thin;
     font-size: 22px;
     display: flex;
-    padding-top: 3em;
     bottom: 0;
     width: 100%;
     text-align: center;
     flex-direction: column;
+    margin-top: 12px;
+  
+}
+
+.footer-wrapper {
+    background-color:#DDDDDD;
+    margin-top: 40px;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    justify-content: center;
 }
