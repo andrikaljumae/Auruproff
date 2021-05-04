@@ -6,20 +6,20 @@ import '../styles/Navbar.css';
 import { IconContext } from 'react-icons';
 
 function Navbar() {
-  const [sidebar, setSidebar] = useState(false);
+  const [sidebar, sidebarState] = useState(false);
 
-  const showSidebar = () => setSidebar(!sidebar);
+  const sidebarActive = () => sidebarState(!sidebar);
 
   return (
     <>
       <IconContext.Provider value={{ color: '#fff' }}>
         <div className='navbar'>
           <Link to='#' className='bars'>
-            <Bars.FaBars onClick={showSidebar} />
+            <Bars.FaBars onClick={sidebarActive} />
           </Link>
         </div>
         <nav className={sidebar ? 'menu active' : 'menu'}>
-          <ul className='menu-items' onClick={showSidebar}>
+          <ul className='menu-items' onClick={sidebarActive}>
             {Data.map((item, index) => {
               return (
                 <li key={index} className={item.classname}>
